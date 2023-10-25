@@ -5,7 +5,7 @@ RUN apt-get install -y nginx
 
 WORKDIR /etc/nginx
 
-COPY ./dist /var/www/html
+COPY ./build /var/www/html
 COPY ./nginx/sites-available/default sites-available/default
 
 CMD ["nginx", "-g", "daemon off;"]
