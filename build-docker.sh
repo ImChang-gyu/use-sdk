@@ -1,7 +1,7 @@
 #!/bin/bash
 APP_NAME="use-sdk"
 VERSION="1.0.0"
-PORT="20050"
+PORT="20066"
 NETWORK="database-network"
 APP_NAME_OLD="${APP_NAME}-old"
 
