@@ -30,7 +30,7 @@ docker tag ${APP_NAME}:${VERSION} ${APP_NAME_OLD}:${VERSION}
 echo "---------- [Deploy Step - 3] : Yarn install"
 yarn
 # 4. Build the react using yarn
-yarn build:dev
+yarn build
 # 5. Build the docker image
 echo "---------- [Deploy Step - 4] : Build New Docker Image"
 docker build -t ${APP_NAME}:${VERSION} .
