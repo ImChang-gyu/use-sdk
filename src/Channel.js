@@ -14,7 +14,7 @@ class ChannelService {
       s.type = "text/javascript";
       s.async = true;
       s.src =
-        "https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/plugin56.js";
+        "https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/plugin57.js";
       s.charset = "UTF-8";
       var x = document.getElementsByTagName("script")[0];
       x.parentNode.insertBefore(s, x);
